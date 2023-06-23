@@ -8,9 +8,9 @@
 </head>
 
 <body>
-    <section class="scores"><a href="highscores.html">View Highscores</a> </section>
+    <section class="scores"><a href="highscores.html">View Highscores</a> </section> <!--A link to the highscore page-->
 
-    <section class="timer">Time: <span id="timer-count">75</span></section> 
+    <section class="timer">Time: <span id="timer-count">75</span></section> <!--The timer-->
 
 
     <section class="wrapper">
@@ -19,14 +19,14 @@
             <p>Try to answer the following code related questions within the time limit! Be careful, incorrect answers reduce the timer by 15 seconds!</p>
             <button id="start-button">Start the Quiz</button>
         </section>
-        <section id="questions" class="hide">
+        <section id="questions" class="hide"> <!--Class hide so its hidden on page load-->
             <h2 id="question-title"></h2>
             <section id="choices" class="choices"></section>
         </section>
-        <section id="end-screen" class="hide">
+        <section id="end-screen" class="hide"> <!--Class hide to show when the quiz ends-->
             <h2>That's a Wrap!</h2>
             <p>Your final score is <span id="final-score"></span></p>
-            <p>Enter Initials: <input type="text" id="initials" max="3">
+            <p>Enter Initials: <input type="text" id="initials" max="3"> <!--Max 3 so it only take 3 letters, either initals or like a game cabinet-->
             <button id="submit">Submit</button></p>
         </section>
         

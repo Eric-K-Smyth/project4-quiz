@@ -1,12 +1,11 @@
 * {
     color: green;
-    background-color: black;
-    
+    background-color: black; /*All text is green and background black*/
 }
 
 h1{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 75px;
+    font-size: 75px; /*Style for the title*/
     text-align: center;
     color: green;
     background-color: black;
@@ -14,28 +13,28 @@ h1{
 }
 
 h2{ 
-    font-size: 50px;
+    font-size: 50px; /*Makes the questions bigger*/
 }
 
 .scores a{
-    display: inline;
+    display: inline; /*Style for the link to highscores*/
     font-size: 30px;
 }
-.timer {
+.timer { /*Style for the timer, makes it big and to the right, but not all the way*/
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     font-size: 35px;
     padding-right: 20px;
 }
-.wrapper {
+.wrapper { /*Makes general text a bit bigger for easier reading*/
     font-size: 20px;
     text-align: center;
 }
 .hide {
-    display: none;
+    display: none; /*Allows me to hide and display different elements depending on the functions being run*/
   }
-#start-button {
+#start-button { /*Makes start button big*/
     background-color: green;
     border: none;
     color: white;
@@ -44,45 +43,19 @@ h2{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    cursor: pointer;
   }
-  #start-button {
-    background-color: green;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }#start-button {
-    background-color: green;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }#start-button {
-    background-color: green;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
-  #start-button:hover {
+ 
+  #start-button:hover { /*Adds hover effect to start button*/
     background-color: lightgreen
   }
-  #high-scores-list {
+  #high-scores-list { /*Centers and unstyles highscore list*/
     text-align: center;
     list-style: none;
     font-size: 25px;
   }
 
-  #choices button {
+  #choices button { /*Style for answer buttons*/
     background-color: green;
     border: 2px;
     color: white;
@@ -92,7 +65,7 @@ h2{
     cursor: pointer;
   }
   
-  #choices button:hover {
+  #choices button:hover { /*Adds hover effect to answer buttons*/
     background-color: lightgreen;
   }
   
