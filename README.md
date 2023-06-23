@@ -1,4 +1,6 @@
 # The Coding Quiz
+https://eric-k-smyth.github.io/project4-quiz/
+![eric-k-smyth github io_project4-quiz_](https://github.com/Eric-K-Smyth/project4-quiz/assets/130538145/bdad1c2e-56f4-4507-9a6d-ca43bc32fd44)
 
 ## Description
 
