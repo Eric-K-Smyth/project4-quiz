@@ -25,7 +25,7 @@ var score = 0;
 var quizQuestions = [
   {
     question: "Commonly used data types do not include:",
-    choices: ["strings", "alerts", "boolean", "numbers"],
+    choices: ["Strings", "Alerts", "Boolean", "Numbers"],
     correctAnswer: 1 // Index of the correct answer choice
   },
   {
@@ -53,6 +53,7 @@ var quizQuestions = [
 
 // Function to start the game and timer
 function startGame() {
+  document.getElementById("questions").classList.remove("hide");
   timerCount = 75; // Set the initial value of the timer
   startButton.disabled = true; // Disable the start button once clicked
   startTimer(); // Start the timer

@@ -1,0 +1,101 @@
+* {
+    color: green;
+    background-color: black;
+    
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 75px;
+    text-align: center;
+    color: green;
+    background-color: black;
+    line-height: 1px;
+}
+
+h2{ 
+    font-size: 50px;
+}
+
+.scores a{
+    display: inline;
+    font-size: 30px;
+}
+.timer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 35px;
+    padding-right: 20px;
+}
+.wrapper {
+    font-size: 20px;
+    text-align: center;
+}
+.hide {
+    display: none;
+  }
+#start-button {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  #start-button {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }#start-button {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }#start-button {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  #start-button:hover {
+    background-color: lightgreen
+  }
+  #high-scores-list {
+    text-align: center;
+    list-style: none;
+    font-size: 25px;
+  }
+
+  #choices button {
+    background-color: green;
+    border: 2px;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #choices button:hover {
+    background-color: lightgreen;
+  }
+  
+  #choices button:active {
+    background-color: green;
+  }
